@@ -1,78 +1,58 @@
+# Introduction
+Let's try to create my website for simple thing and learn coding together in the same way
 
-Planning For Project
-===========
-
-> + Review SQL command for database system [DBMS : MySQL]
-> + Review Javascript command [to use node.js framework]
-> + Review HTML,CSS [to build a beautiful web page]
-> + Review page design for decoration 
-
-> + Create a database for myinfomation  
-> + Create a simple node.js to test input and output data
-> + Design a simple web page for introduce myself
-> + Add some decoration or some gadjet following the design
-> + <b>Finally Make it advance!!!</b>
-> 
-Inspiration or Template will be put in here:
-==============
-
-
-> <li>https://thekp.dev/</li>
-> <li>https://www.acommerce.asia/</li>
-
- 
-
-My Achitecture Here: 
-===========
-
-![image](https://user-images.githubusercontent.com/104770048/168883016-1672372a-4423-46b7-bc0d-e69d031a989c.png)
-
-
-
-<h1> Database Management System </h1>
-To create database with mysql and show data by using web service Node.js by using esxpress node.js framework
+## Here is a plan for develop
 <ol>
-       <li>download and intstall to run service by command </li>
-       <li>open 2 terminal and run command                      // note  you need to run sqld all the time[as server]
-              <ol>First terminal 
-                  <ol>- mysqld --console --innitialize   //you will get a password </ol>
-                  <ol>- mysqld --console </ol>
-              </ol>
-              <ol>Second terminal 
-                  <ol>- mysql --user root --password </ol>
-                  <ol> - Enter password from initialize[Enter]  </ol>
-                  <ol> - alter user 'root'@'localhost' identified by 'PASSWORD';  // to change a password by yours  </ol>
-                  <ol>- type 'exit' from mysql and try a new password </ol>
-              </ol>
-       </li>
-       <li> Create Database </li>
-              <ol> create database name myinformation;
-                  <ol>- create database name myinformation;     //create name database name myinformation </ol>
-                  <ol>- use myinformation;                      //use this database</ol>
-              </ol>
- </ol>
- 
-Server Node.js Web Service
-===========
- <ol>
- <li>download and extract nodejs.zip file </li>
-    <li>open terminal and run command                      
-              <ol>Install nodejs using npm command
-               <ol>create new directory to install </ol>
-                  <ol>- npm install express mysql ejs //to your new folder ,npm: node package manager,ejs:embedded javascript
+  <li>Design simple layout for my website structure [80% - after got API need to re-adjust layout]</li> 
+  <li>Coding HTML for stucture of data [80% - Need to change some dead-link and add API data] </li>
+  <li>Add CSS for layout and Responsive  [0%] </li>
+  <li>Make an Subscribe Function for user who's fill (First-name, Last-name, Email) [0%]  </li>
+  <li>Make it public [0%] </li> 
 </ol>
 
-Create A Simple Wep page (HTML, CSS)
-===========
 
-![image](https://user-images.githubusercontent.com/104770048/170625883-d94cb495-c2ba-45b5-bb8f-6779996167e1.png)
+## Inspiration or Template will be put in here:
 
- <ol>
- <li> Create file.html to make a web site </li>
- </ol>
- 
-Improve for DBMS system
-===========
+>
 
-Develop Web page to make it Advance
-===========
+  <li>https://thekp.dev/</li>
+  <li>https://www.acommerce.asia/</li>
+  <li>https://www.airbnb.com/</li>
+
+ >
+
+## LET's Begin
+
+### Design simple layout for my website structure
+
+>
+
+ Layout almost done(can be adjust for flexible or following IDEA)
+
+>
+
+<p align="center">  
+ <img  src="https://user-images.githubusercontent.com/104770048/173267819-827c6eab-9bb6-43b1-9308-19043403c6fc.png" alt="simplelayout desgin">
+</p>
+
+
+### Coding HTML for stucture of data
+
+>
+
+ Coding HTML just started and need more API from other website to show you what am I interested  || article from my Github ETC
+
+>
+
+<p align="center">  
+ <img  src="https://user-images.githubusercontent.com/104770048/173269251-1dc301a6-81e1-4725-87fd-882aaf0a5cda.png" alt="simplelayout desgin">
+</p>
+
+
+## Challenge
+
+<ul>
+ <li>***CSS layout and Responsive[included mobile app]</li>
+ <li>****API from social network could be interesting</li>
+ <li>Subscribe function and DBMS for who subscribe</li>
+</ul>
